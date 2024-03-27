@@ -2,7 +2,11 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  home(): string {
+    return 'Bienvenido al eCommerce Yubit';
+  }
+
+  login(): string {
+    return 'Usted necesita identificarse';
   }
 }
